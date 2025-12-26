@@ -17,10 +17,10 @@ xla_workspace3()
 # Details: https://github.com/google-ml-infra/rules_ml_toolchain
 tf_http_archive(
     name = "rules_ml_toolchain",
-    sha256 = "1c2c530a054e9e8b3c811ec21ed8a687fc865bec3abbc8ff65beb829b1d67ae4",
-    strip_prefix = "rules_ml_toolchain-6734d2a174bf29e731d3f473743d1cc1a86100c3",
+    sha256 = "1065837dc0176d0fcb4a962a0c67d5028dc00bde7b43f3aadc4bfea1c2c34629",
+    strip_prefix = "rules_ml_toolchain-0afa211ad578991879afce9e43284ec31ab8da9a",
     urls = tf_mirror_urls(
-        "https://github.com/google-ml-infra/rules_ml_toolchain/archive/6734d2a174bf29e731d3f473743d1cc1a86100c3.tar.gz",
+        "https://github.com/ybaturina/rules_ml_toolchain/archive/0afa211ad578991879afce9e43284ec31ab8da9a.tar.gz",
     ),
 )
 
